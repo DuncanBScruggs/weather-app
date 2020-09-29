@@ -20,6 +20,8 @@ function getWeather(e) {
 
         showWeather(data.name, data.main.temp, data.weather[0].description, data.weather[0].icon);
 
+  }).catch(function(err){
+      console.log(err.message);
   });
 }
 function showWeather(cityname,temperature,condition, weathericon){
