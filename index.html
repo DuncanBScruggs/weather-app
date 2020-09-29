@@ -13,51 +13,91 @@
   <body>
 
     <!-- Begin Get Zip -->
-    <div id="container">
+    <div class="container">
       <!-- App Title -->
-      <div id="row">
-
-      </div>
-      <!-- Zip text field and button -->
-      <div id="row">
-
-      </div>
-    </div>
-    <!-- End Get Zip -->
-
-    <!-- Begin Info Container -->
-    <div id="container">
-
-      <!-- City -->
-      <div id="row">
-
-      </div>
-
-      <!-- Temp -->
-      <div id="row">
-        <div id="col">
-          <div id="row">
-            <div id="col">
-
+      <div class="row m-2">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card text-center" style="width: 18rem;">
+            <div class="card-header">
+              Weather App
             </div>
-            <div id="col">
-              
-            </div>
-            <div id="col">
-              
+            <div class="card-body">
+              <form class="form-inline d-flex justify-content-center">
+                <input id="zip" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="btn" class="btn btn-outline-success my-2 my-sm-0">Search</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
+    <!-- End Get Zip -->
+    </div>
+
+    <!-- Begin Info Container -->
+    <div class="container">
+      <div class="col">
+      <!-- City -->
+      <div class="row m-2">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card text-center" style="width: 18rem;">
+            <div class="card-header">
+              City
+            </div>
+            <div class="card-body">
+              <p id="city"class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Temp -->
+      <div class="row m-2">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card text-center" style="width: 18rem;">
+            <div class="card-header">
+              Temperature
+            </div>
+            <div class="card-body">
+              <p id="tempK"class="card-text"></p>
+              <p id="tempC"class="card-text"></p>
+              <p id="tempF"class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Condition -->
-      <div id="row">
-
+      <div class="row m-2">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card text-center" style="width: 18rem;">
+            <div class="card-header">
+              Condition
+            </div>
+            <div class="card-body">
+              <p id="con"class="card-text"></p>
+              <img id="icon" src="" alt="weather icon">
+            </div>
+          </div>
+        </div>
       </div>
+
+      
       <!-- Season -->
-      <div id="row">
+      <!-- <div class="row m-2">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card text-center" style="width: 18rem;">
+            <div class="card-header">
+              Season
+            </div>
+            <div class="card-body">
+              
+            </div>
+          </div>
+        </div>
+      </div> -->
 
+      
       </div>
-
     </div>
     <!-- End Info Container -->
       
